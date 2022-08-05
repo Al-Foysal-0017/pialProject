@@ -1,0 +1,34 @@
+.navbar {
+  height: 80px;
+  background: orange;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  /* padding: 0 2rem; */
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+
+.navbar-left {
+  padding-left: 2rem;
+}
+
+.navbar-right {
+  padding-right: 2rem;
+}
+
+.placeSuggesBox {
+  position: absolute;
+  background: gray;
+  /* padding: 1rem; */
+  margin-top: 12px;
+  width: 100vw;
+  left: 0;
+  display: flex;
+}
+
+.allSuggestionItem {
+  color: #fff;
+  padding: 1rem 2rem;
+}

@@ -1,0 +1,27 @@
+.signIn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 120px);
+  min-width: 100vw;
+}
+
+.signInBox {
+  border: 1px solid #000;
+  padding: 2rem;
+  border-radius: 12px;
+  min-width: 400px;
+  box-shadow: 10px 11px 27px -10px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 11px 27px -10px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 11px 27px -10px rgba(0, 0, 0, 0.75);
+}
+
+.signInHeader {
+  display: flex;
+  justify-content: center;
+}
+
+.signInForm {
+  display: flex;
+  flex-direction: column;
+}
